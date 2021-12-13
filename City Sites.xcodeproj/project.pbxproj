@@ -11,6 +11,7 @@
 		E074CE242765C85300E79B40 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E074CE232765C85300E79B40 /* LaunchView.swift */; };
 		E074CE262765C85300E79B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E074CE252765C85300E79B40 /* Assets.xcassets */; };
 		E074CE292765C85300E79B40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E074CE282765C85300E79B40 /* Preview Assets.xcassets */; };
+		E074CE332766CDE000E79B40 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E074CE322766CDE000E79B40 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E074CE232765C85300E79B40 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		E074CE252765C85300E79B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E074CE282765C85300E79B40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E074CE322766CDE000E79B40 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		E074CE2F2765C94700E79B40 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E074CE322766CDE000E79B40 /* ContentModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				E074CE242765C85300E79B40 /* LaunchView.swift in Sources */,
 				E074CE222765C85300E79B40 /* City_SitesApp.swift in Sources */,
+				E074CE332766CDE000E79B40 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				DEVELOPMENT_TEAM = BHVBDBK58V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to use your location to find resturants and sights near you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,6 +330,7 @@
 				DEVELOPMENT_TEAM = BHVBDBK58V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to use your location to find resturants and sights near you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
